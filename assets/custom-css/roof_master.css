@@ -1,0 +1,154 @@
+.center > h1{
+font-family: 'Lobster', cursive !important;
+font-size: 40px;
+}
+#hed_img{
+    float:left;
+    margin-top: 12px;
+}
+.hed_nav{
+    /* float: left; */
+margin-top: 80px;
+}
+.hed_nav > ul > li { 
+margin-right: 30px;
+}
+#menu-l{
+    float: left;
+    float: right;
+}
+.hed_nav > ul a{ 
+    text-decoration: none;
+    font-size: 28px;
+    color: #6c757d;
+    font-family: fantasy;
+}
+.mobile_menu a{
+    font-size: 28px;
+    color: #6c757d;
+    font-family: fantasy;
+    text-decoration: none;
+}
+.mobile_menu{
+    display: inline !important;
+    float: right;
+ background-color: silver;
+}
+
+.mobile_menu > li{
+    margin-bottom: 15px;
+    border-bottom: 2px dotted black;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    padding-right: 40px;
+    padding-left: 40px;
+    opacity: 0.1;
+}
+.mobile_menu > li:hover{
+opacity: 1;
+}
+.mobile_menu > li:first-child{
+
+    padding-top: 10px;
+    border-top: 2px dotted black;
+
+}
+#mobile_menu_box{
+ display: none;
+ margin-right: 0px;
+ position: absolute !important;
+ right: 0px;
+ 
+ top:10px;
+ width: 40%;  
+ z-index: 100;
+}
+#main_menu{
+max-width: 1500px;
+margin-left: auto;
+margin-right: auto;
+}
+.footer-menu > li{
+    display:inline;
+    margin-right: 12px;
+    opacity: 0.7;
+}
+.footer-menu > li:hover{
+
+opacity: 1;
+}
+.footer-menu > li a{
+    font-family: fantasy;
+    color: #000;
+    text-decoration: none;
+    font-size: 26px;
+}
+.opas{
+    opacity: 0.7;
+}
+.opas:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+#slider{
+    text-align: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+#left_arrow{
+position: absolute;
+left: 0px;
+top: 0px;
+width: 60px;
+height: 100%;
+background-color: rgba(108, 117, 125, 0.8)
+
+}
+#right_arrow{
+position: absolute;
+right: 0px;
+top: 0px;
+width: 60px;
+height: 100%;
+background-color: rgba(108, 117, 125, 0.8)
+;
+}
+.arrow{
+    position: absolute;
+top: 45%;
+    right: 0px;
+}
+.zanik{
+    transform: scale(.99);
+    opacity: .2;
+    transition: all ease-in-out 1s;
+}
+.poj{
+    transform: scale(1);
+    orphans: 1;
+    transition: all ease-in-out 1s;
+
+}
+
+.center{
+    text-align: center;
+}
+.center > p{
+    font-size: 16px;
+}
+.margin-b{
+    margin-bottom: 100px;
+}
+.main-link{
+
+}
+.main-link:hover > .img-link,
+.main-link:hover > .link-text
+{
+    cursor: pointer;
+    background-color: rgba(108, 117, 125, 0.9)
+}
+.img-link, .link-text{
+
+    background-color: rgba(108, 117, 125, 0.8)
+}
