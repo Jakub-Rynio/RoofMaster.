@@ -27,7 +27,7 @@
         <img class="img-fluid py-3" src="https://ujeb.se/nruBsV">
     </div>
 
-    <div id="myDiv" class="col-md-6  center link-text">
+    <div id="kontakt" class="col-md-6  center link-text">
         <h1 class="text-center mt-5">KONTAKT</h1>
         <br>
         <p> only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  </p>
@@ -37,16 +37,12 @@
 </div>
 
 <script>
-// pobierz element div
-var div = document.getElementById("myDiv");
+var div = document.getElementById("kontakt");
 
-// dodaj event listener dla kliknięcia na div
 div.addEventListener("click", function() {
-  // przekieruj użytkownika do strony
-  window.location.href = "/jbzd.com";
+  window.location.href = "/kontak";
 });
 
-// ustaw styl kursora na pointer, aby podkreślić, że div jest klikalny
 div.style.cursor = "pointer";
 
 
