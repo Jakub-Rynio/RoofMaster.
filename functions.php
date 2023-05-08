@@ -41,6 +41,13 @@ function roof_master_inc_styles()
 
     wp_enqueue_script('bootstrap', get_template_directory_uri() . '/assets/bootstrap/js/bootstrap.bundle.min.js', array('jquery'), '5.0.0', 'all');
     wp_enqueue_script('customjs', get_template_directory_uri() . '/assets/custom-js/roof_master.js', array(), '1.0.0', 'mobile');
-    wp_enqueue_script('customjs', get_template_directory_uri() . '/assets/jquery/jquery-3.6.4.min.js', array(), '3.6.4', 'all');
 }
 add_action('wp_enqueue_scripts', 'roof_master_inc_styles');
+
+/*
+==========================
+ THEME SUPORT
+==========================
+*/
+
+add_theme_support('custom-background');

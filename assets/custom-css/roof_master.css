@@ -139,16 +139,16 @@ top: 45%;
 .margin-b{
     margin-bottom: 100px;
 }
-.main-link{
 
+.img-link{
+    max-height: 500px;
 }
-.main-link:hover > .img-link,
-.main-link:hover > .link-text
+.main-link:hover > .link
 {
     cursor: pointer;
     background-color: rgba(108, 117, 125, 0.9)
 }
-.img-link, .link-text{
+.link{
 
     background-color: rgba(108, 117, 125, 0.8)
 }

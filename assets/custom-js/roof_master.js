@@ -1,4 +1,8 @@
-// menu
+/*
+==========================
+    MENU
+==========================
+*/
 let flag = false;
 
 document.querySelector('#mob_menu').addEventListener('click', rm_show_menu);
@@ -16,3 +20,28 @@ function rm_show_menu() {
 //slider
 
 
+
+/*
+==========================
+    LINKS
+==========================
+*/
+var kontakt = document.querySelectorAll('.kontakt-link');
+
+kontakt.forEach(adding_link => adding_link.addEventListener("click", function(){
+    window.location.href = "/kontakt";
+}));
+
+
+var o_nas = document.querySelectorAll('.o_nas-link');
+
+o_nas.forEach(adding_link => adding_link.addEventListener("click", function(){
+    window.location.href = "/o-nas";
+}));
+
+
+var blog = document.querySelectorAll('.blog-link');
+
+blog.forEach(adding_link => adding_link.addEventListener("click", function(){
+    window.location.href = "/blog";
+}));
