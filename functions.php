@@ -32,8 +32,8 @@ function roof_master_inc_styles()
 {
 
     //css files
-    wp_enqueue_style('customstyle', get_template_directory_uri() . '/assets/custom-css/roof_master.css', array(), '1.0.0', 'all');
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/bootstrap/css/bootstrap.min.css', array(), '5.0.0', 'all');
+    wp_enqueue_style('customstyle', get_template_directory_uri() . '/assets/custom-css/roof_master.css', array(), '1.0.0', 'all');
 
 
     //js filesj

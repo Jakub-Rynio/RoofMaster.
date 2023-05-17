@@ -152,3 +152,56 @@ top: 45%;
 
     background-color: rgba(108, 117, 125, 0.8)
 }
+
+
+.bg-secondar{
+background-color: #ecd4b4 ;
+}
+
+.my_btn{
+text-decoration: none;
+color: #000;
+
+}
+
+.list_of{
+    list-style: none;
+}
+.btn-custom {
+  margin-bottom: 10px;
+  background-color: #e8cca7  ;
+}
+
+.entry-header a{
+color: #6c757d;
+text-decoration: none;
+
+}
+
+
+ p > a.btn:hover{
+  background-color: #ecd4b4  !important ;
+  color: #6c757d;
+
+}
+ul > li > a.btn-custom:hover{
+    color: #6c757d;
+}
+.btn-single a{
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.btn-single {
+background-color: #e8cca7;
+}
+
+.btn-single:hover {
+background-color:#ecd4b4;
+}
+
+
+
+
+
+

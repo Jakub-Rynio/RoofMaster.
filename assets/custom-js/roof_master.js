@@ -43,5 +43,5 @@ o_nas.forEach(adding_link => adding_link.addEventListener("click", function(){
 var blog = document.querySelectorAll('.blog-link');
 
 blog.forEach(adding_link => adding_link.addEventListener("click", function(){
-    window.location.href = "/blog";
+    window.location.href = "/Blog";
 }));
